@@ -14,9 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('tugas.tugas');
 })->name("home");
 
+Route::get('/input-tugas', function () {
+    return view('tugas.input');
+})->name("input-tugas");
+
+Route::get('/edit-tugas', function () {
+    return view('tugas.edit');
+})->name("edit-tugas");
+
+// tugas selesai
 Route::get('/tugas-selesai', function () {
-    return view('welcome');
+    return view('tugas-selesai.tugas-selesai');
 })->name("tugas-selesai");
