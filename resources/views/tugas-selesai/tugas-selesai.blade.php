@@ -32,7 +32,7 @@
         <h1>Daftar Tugas Selesai</h1>
 
         <!-- kolom -->
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-md-4 mb-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
